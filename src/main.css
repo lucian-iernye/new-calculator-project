@@ -23,13 +23,14 @@ body {
 .calc-grid > button {
   cursor: pointer;
   font-size: 2rem;
-  border: 1px solid white;
+  border: 1px solid #1c1c31;
   outline: none;
-  background-color: rgba(134, 226, 29, 0.75);
+  background-color: #96ce04;
 }
 
 .calc-grid > button:hover {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #1c1c31;
+  color: #96ce04;
 }
 
 .span-two {
@@ -38,7 +39,8 @@ body {
 
 .output {
   grid-column: 1 / -1;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(70, 70, 70, 0.75);
+  border: 1px solid #3c3f3e;
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
